@@ -1,0 +1,11 @@
+body{  
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column-reverse; 
+}
+.App {
+  display: flex;
+  
+  justify-content: space-evenly;
+}
+

@@ -1,0 +1,39 @@
+
+.dropDown{
+  display: flex;
+  flex-direction: column;   
+  width:20rem;
+  background-color:transparent;
+}
+.dropDownBtn{
+  background-color: transparent;
+  border-color: lightgray;
+  width:20rem;
+  height:2rem;
+}
+.select{
+  color:black;
+}
+.hidden{
+  display: none;
+}
+ul{
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  background-color: transparent;
+  border:solid lightgray;
+  list-style-type: none;
+  overflow: scroll; 
+  height:8rem;
+}
+li{
+  text-decoration: none;
+  width:100%;
+  height:2rem;
+  text-align: center;
+}
+li:hover{
+  background-color:lightgray;
+}
