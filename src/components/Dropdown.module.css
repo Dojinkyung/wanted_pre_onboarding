@@ -25,7 +25,7 @@ ul{
   background-color: transparent;
   border:solid lightgray;
   list-style-type: none;
-  overflow: scroll; 
+  overflow: auto; 
   height:8rem;
 }
 li{
