@@ -6,7 +6,7 @@
 
 toggle, tab, input, dropdown의 기능을 구현하였습니다.
 ![image](https://user-images.githubusercontent.com/63532503/165038448-1fc2499c-b17c-4170-b016-ad59c2e7cc61.png)
-
+----
 ### Toggle
 클릭하면  useState에 true, false가 바뀌게 하였습니다. true 와 false 에 따라 classname에 clicked라는 css 스타일이 들어갈 수 있도록 조건부 연산자를 이용하였습니다.
 
@@ -27,20 +27,11 @@ input 안에 아이콘을 사용하기 위해 두 가지를 설치하였습니�
 `npm install @fortawesome/react-fontawesome`
 
 ### Dropdown
-
 Dropdown에서 <select>와 <option>을 사용하면 박스가 위로 올라가는 현상이 있어 Dropdown 박스를 리스트를 이용하여 만들어 주었습니다. 비트코인의 양이 많아서 css의 scroll을 이용하였습니다.
   
+  
 async await와 fetch를 이용하여 코인의 정보를 받아왔습니다.
-```
-          const getCoins = async () => {
-        const json= await( 
-            await fetch(
-                `https://api.coinpaprika.com/v1/tickers`
-                )
-        ).json();
-        setCoins(json);
-    };
-```
+  
   
 받아온 코인들을 map을 이용하여 리스트로 만들어주었습니다.
   
